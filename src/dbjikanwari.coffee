@@ -18,7 +18,7 @@ module.exports = (robot) ->
   robot.respond /次の時間は？/, (msg) ->
     
     #現在時刻取得
-    now = New Date
+    now = new Date
     month = now.getMonth()
     date = now.getDate()
     hour = now.getHours()
